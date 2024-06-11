@@ -16,6 +16,7 @@
     "dotenv": "^16.4.5",
     "erela.js": "^2.4.0",
     "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
     "play-dl": "^1.9.7",
     "ytdl-core": "^4.11.5"
   },
