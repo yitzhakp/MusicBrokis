@@ -18,7 +18,7 @@ const client = new Client({
 })
 
 let connection = null;
-const ds = require('./data_structures')
+const ds = require('./data_structures.js')
 const queue = new ds.Queue();
 const queueAux = new ds.Queue();
 

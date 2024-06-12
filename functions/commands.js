@@ -24,6 +24,8 @@ const p = async (message) => {
     if (!song.startsWith('https') || !(yt_validate(posibleLink) === 'video')) {
         let songInfo = await play.search(song, { limit: 1 })
         link = songInfo[0].url
+    } else {
+        link = posibleLink
     }
 
     await send_song(link, message.channel, 'Agregada a la cola')
